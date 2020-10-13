@@ -1,0 +1,18 @@
+.header{
+  display: flex;
+  height: 5%;
+  background-color: cadetblue;
+  &-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    border: 1px solid black;
+
+
+    &:hover{
+      background-color: red;
+      opacity: 0.3;
+    }
+  }
+}
